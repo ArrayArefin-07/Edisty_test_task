@@ -56,4 +56,19 @@
     color: #290886;
   }
 
+  .main .world img{
+    height: 280px;
+    width: 270px;
+    margin-top: -140px;
+    margin-left: -120px;
+  }
+
+  @keyframes world{
+    0%{transform: rotate(0deg); border-width: 10px;}
+    25%{}
+  }
+
+  .main .world img{
+    animation: circle 3s infinite alternate;
+  }
 
