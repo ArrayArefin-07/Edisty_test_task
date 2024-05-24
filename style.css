@@ -33,7 +33,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 310px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: black;
+    font-size: 55px;
+    margin-left: 20px;
+  }
+
+.image img{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-left: 590px;
+    padding-bottom: 20px;
+    margin-top: -10px;
+  
+  }
+
+  .main .t2 .t3{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #290886;
   }
 
 
