@@ -19,17 +19,19 @@
   }
 
   .main .text{
+    font-family: "Oswald", sans-serif;
     margin-top: 200px;
     margin-left: 50px;
     display: flex;
     justify-content: center;
     color: black;
     font-weight: bold;
-    font-size: 55px;
+    font-size: 52px;
     
   }
 
   .main .t2{
+    font-family: "Oswald", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,10 +59,10 @@
   }
 
   .main .world img{
-    height: 280px;
+    height: 260px;
     width: 270px;
     margin-top: -140px;
-    margin-left: -120px;
+    margin-left: -140px;
   }
 
   @keyframes world{
@@ -68,7 +70,18 @@
     25%{}
   }
 
-  .main .world img{
+  /* .main .world img{
     animation: circle 3s infinite alternate;
-  }
+  } */
+
+.main .hand img{
+  display: flex;
+  height: 160px;
+  width: 200px;
+  margin-left: 1180px;
+  margin-top: -250px;
+  
+  
+
+}
 
