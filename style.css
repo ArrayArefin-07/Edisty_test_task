@@ -81,7 +81,13 @@
   margin-left: 1180px;
   margin-top: -250px;
   
-  
+}
 
+.div .about img{
+  display: flex;
+  height: 260px;
+  width: 700px;
+  margin-top: 210px;
+  margin-left: 300px;
 }
 
