@@ -84,6 +84,7 @@
 }
 
 .div{
+  display: inline-block;
   margin-top: 30%;
   box-sizing: border-box;
   height: 100%;
@@ -111,3 +112,19 @@
   margin-top: 20px;
   color: #000000;
 }
+.div img{
+  height: 350px;
+  width: 450px;
+  margin-top: -10%;
+  margin-left: 60%;
+}
+.div .body-1{
+  display: flex;
+  align-items: flex-start;
+  justify-content: initial;
+  margin-top: 7%;
+  font-size: 19px;
+  font-family: sans-serif;
+
+}
+
