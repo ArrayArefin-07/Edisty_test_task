@@ -1,3 +1,6 @@
+boday{
+  background-color: rgb(244 248 255);
+}
 .font{
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -70,21 +73,113 @@
     25%{}
   }
 
-  /* .main .world img{
-    animation: circle 3s infinite alternate;
-  } */
 
 .main .hand img{
   display: flex;
   height: 160px;
   width: 200px;
-  margin-left: 1180px;
+  margin-left: 1200px;
   margin-top: -250px;
   
 }
 
-.div{
-  display: inline-block;
+
+
+
+ /* about section start here */
+
+.about{
+  display: grid;
+  height: 360px;
+  width: 600px;
+  margin-top: 250px;
+  margin-left: 370px;
+  margin-bottom: -241px;
+}
+
+
+ .about1{
+  display: grid;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+  border: 1px solid rgb(231, 225, 225);
+  background-color: #ffffff;
+
+  border-radius: 35px;
+  margin-left: 55px;
+  margin-top: 90px;
+  margin-bottom: 60px;
+  height:600px;
+  width: 97%;
+ }
+
+ .line{
+  display: flex;
+  border: 5px solid #764FA1;
+  rotate: 90deg;
+  height: 8px;
+  width: 100px;
+  margin-top: 110px;
+  margin-left: 25px;
+ }
+
+ .abt h2{
+  display: flex;
+  height: 90px;
+  width: 510px;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Oswald, sans-serif;
+  color: #000000;
+  margin-top: -76px;
+  margin-left: 90px;
+ }
+ .abt{
+  display: grid;
+  height: 50px;
+  width: 570px;
+  
+  
+ 
+ }
+
+
+ .abt h3{
+  display: flex;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: popins;
+  color: darkgray;
+  margin-left: 90px;
+  margin-top: -20px;
+ }
+
+.abtext{
+  display: flex;
+  align-items: start;
+  font-size: 19px;
+  height: 380px;
+  width: 470px;
+  font-family: sans-serif;
+  margin-left: 60px;
+  margin-right: 90px;
+  margin-top: 30px;
+
+}
+
+.abimg{
+  display: grid;
+  height: 350px;
+  width: 490px;
+  margin-left: 590px;
+  margin-top: -400px;
+}
+
+
+ /* about section previous code here */
+/* .div{
+  display: flex;
   margin-top: 30%;
   box-sizing: border-box;
   height: 100%;
@@ -92,39 +187,92 @@
   border: 2px solid black;
   background: #f6eeee;
   border-radius: 23px;
-  padding: 22px;
-  padding-right: 25px;
+
+}
+
+.div .abt{
+  box-sizing: border-box;
+  border:10px solid salmon;
+  height: 500px;
+}
+
+.div .abt .line{
+  display: flex;
+  margin-left: -370px;
+  margin-top: 200px;
+}
+
+.div .line{
+  display: flex;
+  border: 5px solid #764FA1;
+  rotate: 90deg;
+  height: 8px;
+  width: 110px;
+  margin-right: -50px;
+  
 }
 
 .div .about img{
-  display: flex;
+  
   height: 260px;
   width: 700px;
-  margin-top: -280px;
-  margin-left: 300px;
+  margin-top: -260px;
+  margin-left: 450px;
 }
 
 .heading{
-  font-size: 70px;
-  font-weight: 600;
+  font-size: 51px;
+  font-weight: 700;
   text-transform: uppercase;
   font-family: Oswald, sans-serif;
-  margin-top: 20px;
+  margin-top: -75px;
+  margin-left: -290px;
   color: #000000;
 }
-.div img{
-  height: 350px;
-  width: 450px;
-  margin-top: -10%;
-  margin-left: 60%;
+.heading2{
+  
+  margin-left: -290px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: popins;
+  color: darkgray;
 }
-.div .body-1{
+
+.div .body-0{
   display: flex;
+}
+
+.div .body-1{
+
   align-items: flex-start;
   justify-content: initial;
-  margin-top: 7%;
+  margin-top: 35%;
+  margin-right: 600px;
+  margin-left: -316px;
   font-size: 19px;
   font-family: sans-serif;
+  float: right;
 
 }
+.body-0 img{
+  height: 350px;
+  width: 490px;
+  margin-top: 390px;
+  margin-right: -20px;
+} */
+
+/* .div img{
+  display: flex;
+  height: 350px;
+  width: 450px;
+  margin-top: 300px;
+  margin-left: 270px;
+  
+} */
+
+/* .div  img{
+  display: flex;
+  height: 550px;
+  width: 500px;
+} */
 
