@@ -83,11 +83,31 @@
   
 }
 
+.div{
+  margin-top: 30%;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  border: 2px solid black;
+  background: #f6eeee;
+  border-radius: 23px;
+  padding: 22px;
+  padding-right: 25px;
+}
+
 .div .about img{
   display: flex;
   height: 260px;
   width: 700px;
-  margin-top: 210px;
+  margin-top: -280px;
   margin-left: 300px;
 }
 
+.heading{
+  font-size: 70px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: Oswald, sans-serif;
+  margin-top: 20px;
+  color: #000000;
+}
