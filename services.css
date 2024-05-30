@@ -1,0 +1,9 @@
+.explore p{
+    border: 5px solid;
+    font-family: Oswald;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 96px;
+    text-align: center;
+    text-transform: uppercase;
+}

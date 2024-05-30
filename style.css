@@ -374,7 +374,7 @@ body{
 
 .embla2 {
   border: 5px solid;
-  height: 500px;
+  height: 100%;
   width: 100%;
   max-width: 58rem;
   margin: auto;
@@ -387,7 +387,7 @@ body{
 }
 .embla__container2 {
   backface-visibility: hidden;
-  display: flex;
+  /* display: grid; */
   touch-action: pan-y pinch-zoom;
   margin-left: calc(var(--slide-spacing) * -1);
 }
@@ -451,11 +451,11 @@ body{
 }
 
 
-.embla__slide__number2 img{
+/* .embla__slide__number2 img{
   margin-top: 150px;
   height: 400px;
   width: 300px;
-}
+} */
 
 
 /* success card part start  */
