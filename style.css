@@ -675,10 +675,20 @@ footer .list li :hover{
   margin-top: -55px;
 }
 
-.list .foot .social p{
-
-  margin-left: 500px;
+.foot .list .social p{
+  display: grid;
+  margin-left: 550px;
+  width: 120px;
+  font-family: Poppins, sans-serif;
   
+}
+.foot .list .social .icon{
+  text-decoration: none;
+  font-size: 10px;
+  margin-left: 550px;
+  justify-content: center;
+  gap: 10px;
+
 }
 
 
