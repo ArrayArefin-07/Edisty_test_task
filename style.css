@@ -645,6 +645,7 @@ footer .foot .footp{
 footer .list{
   display: grid;
   align-items: center;
+  
   margin-top: -120px;
   margin-left: 450px;
   text-decoration: none;
@@ -653,14 +654,26 @@ footer .list{
   line-height: 24px;
 }
 footer .list li{
-  display: inline;
+  display: grid;
   font-family: Poppins;
   font-size: 14px;
-  font-weight: 500px;
+  font-weight: 550px;
   line-height: 21px;
   text-align: left;
+  margin: 29px;
+  
 }
 
+footer .list li :hover{
+  color: rgb(118, 74, 241);
+  transition: cubic-bezier(1, 0.82, 0.165, 1);
+}
+
+.lt{
+  display: grid;
+  margin-left: 399px;
+  margin-top: -55px;
+}
 
 
 
