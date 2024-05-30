@@ -690,6 +690,26 @@ footer .list li :hover{
   gap: 10px;
 
 }
+.footbox{
+  margin-top: 50px;
+  border: 1px solid blue;
+  height: 60px;
+  width: 100%;
+  background-color: #1B1464;
+}
+.footbox span{
+  display: flex;
+  margin-left: 35px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.footbox p{
+  display: flex;
+  margin-left: 1100px;
+  margin-top: -20px;
+  color: #ffffff;
+}
 
 
 
